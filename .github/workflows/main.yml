@@ -1,0 +1,20 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Say Hello Kamran!
+        run: echo "Hello Kamran! Your CI/CD pipeline is running!"
+
+      - name: Run tests (simulation)
+        run: echo "Running tests... (this is a placeholder)”
