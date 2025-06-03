@@ -17,4 +17,4 @@ jobs:
         run: echo "Hello Kamran! Your CI/CD pipeline is running!"
 
       - name: Run tests (simulation)
-        run: echo "Running tests... (this is a placeholder)”
+        run: echo "Running tests... (this is a placeholder)"
